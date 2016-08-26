@@ -1,6 +1,6 @@
 var bingoList = [];
 bingoList[1] = [
-  { name: "Never obtain Bombchus", types: ["restrict"] },
+  // { name: "Never obtain Bombchus", types: ["restrict"] },
   { name: "Room key", types: ["delivery"] },
   { name: "Blast Mask", types: ["allnight"] },
   { name: "No shield", types: ["mirror"] }
