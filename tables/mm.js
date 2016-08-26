@@ -114,14 +114,14 @@ bingoList[14] = [
   { name: "Romani Notebook Ribbon", types: ["notebook","epona"] },
   { name: "Big Poe", types: ["grave"] },
   { name: "3 real bottles (no dupe)", types: ["bottle"] },
-  { name: "Column of 4 masks on pause", types: ["mask"] },
+  // { name: "Column of 4 masks on pause", types: ["mask"] },
   { name: "Grow 8 bean plants", types: ["ingx24"] },
   { name: "45 Skulltula Tokens", types: ["spider","wallet"] },
   { name: "Explode Hole in Ikana Castle Ceiling", types: ["lens","castle"] }
 ];
 bingoList[15] = [
   { name: "Captain's Hat, Gibdo Mask, and Garo Mask", types: ["mask","grave","epona"] },
-  { name: "Row of 6 masks on pause", types: ["mask"] },
+  // { name: "Row of 6 masks on pause", types: ["mask"] },
   { name: "Red, Green, and Blue Potions", types: ["bottle"] },
   { name: "1 elemental arrow", types: ["elemental"] },
   { name: "12 masks", types: ["mask"] },
@@ -129,7 +129,7 @@ bingoList[15] = [
 ];
 bingoList[16] = [
   { name: "All 3 Photo Hut Area HPs", types: ["heart","picto","remains","woodfall"] },
-  { name: "Diagonal of 4 slots in item inventory", types: ["slot","bottle"] },
+  // { name: "Diagonal of 4 slots in item inventory", types: ["slot","bottle"] },
   { name: "Mask of Scents", types: ["woodfall","remains"] },
   { name: "Magical Mushroom", types: ["woodfall","remains"] },
   { name: "Snowhead Map and Compass", types: ["snowhead","mc"] },
@@ -150,7 +150,7 @@ bingoList[18] = [
   { name: "2 Boss Keys", types: ["bosskey"] },
   { name: "Open 10 chests in Snowhead", types: ["snowhead"] },
   { name: "Gorman Brothers Notebook ribbon", types: ["notebook","epona","ranch"] },
-  { name: "Hit all 10 owls", types: ["hook","stt"] },
+  { name: "Hit all 10 owl statues", types: ["hook","stt"] },
   { name: "Goht's Remains", types: ["snowhead","remains"] }
 ];
 bingoList[19] = [
