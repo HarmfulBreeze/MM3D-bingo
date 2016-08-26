@@ -3,8 +3,7 @@ bingoList[1] = [
   { name: "Never obtain Bombchus", types: ["restrict"] },
   { name: "Room key", types: ["delivery"] },
   { name: "Blast Mask", types: ["allnight"] },
-  { name: "No shield", types: ["mirror"] },
-  { name: "Enter 4th Day", types: ["end"] }
+  { name: "No shield", types: ["mirror"] }
 ];
 bingoList[2] = [
   { name: "Keaton Quiz HP", types: ["delivery"] },
@@ -72,7 +71,8 @@ bingoList[9] = [
   { name: "4 Business Scrub HPs", types: ["heart","scrub","deed"] },
   { name: "Don Gero's Mask", types: ["lens"] },
   { name: "Mask of Truth", types: ["spider"] },
-  { name: "Pinnacle Rock HP", types: ["picto","fortress"] }
+  { name: "Pinnacle Rock HP", types: ["picto","fortress"] },
+  { name: "Enter 4th Day", types: ["end"] }
 ];
 bingoList[10] = [
   { name: "Giant Wallet", types: ["wallet","spider"] },
