@@ -1,5 +1,16 @@
 var bingo = function(bingoList, size) {
 
+    $.fn.toggleClick = function () {
+        var functions = arguments
+        return this.each(function () {
+            var iteration = 0
+            $(this).click(function () {
+                functions[iteration].apply(this, arguments)
+                iteration = (iteration + 1) % functions.length
+            })
+        })
+    }
+
 	function gup( name ) {
 		name = name.replace(/[\[]/,"\\\[").replace(/[\]]/,"\\\]");
 		var regexS = "[\\?&]"+name+"=([^&#]*)";
@@ -82,7 +93,7 @@ var bingo = function(bingoList, size) {
 		  window.open('./bingo-popout.html#'+ name +'='+ items.join(';;;'),"_blank","toolbar=no, location=no, directories=no, status=no, menubar=no, scrollbars=no, resizable=no, copyhistory=no, width=220, height=460"); }
 	});
 
-	$("#bingo tr td:not(.popout), #selected td").toggle(
+	$("#bingo tr td:not(.popout), #selected td").toggleClick(
 		function () { $(this).addClass("greensquare"); },
 		function () { $(this).addClass("redsquare").removeClass("greensquare"); },
 		function () { $(this).removeClass("redsquare"); }
