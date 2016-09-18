@@ -71,7 +71,7 @@ bingoList[16] = [
 ];
 bingoList[17] = [
   { name: "Win a Chest Game", types: ["minigame"] },
-  { name: "Adult Wallet", types: ["bank", "rupees"] }
+  { name: "Adult Wallet", types: ["bank", "rupees"] },
   { name: "Hit Sakon", types: ["nct", "time"] }
 ];
 bingoList[18] = [
